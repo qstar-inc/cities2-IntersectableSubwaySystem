@@ -1,0 +1,52 @@
+﻿<Publish>
+	<!--Id must be set in order to update existed mod. it is not required for publishing mod for the first time-->
+	<ModId Value="87219" />
+	<!--Name of the mod to display to players-->
+	<DisplayName Value="Intersectable Subway System" />
+	<!--Short description of the mod-->
+	<ShortDescription Value="Complete Subway System which can intersect with Roads" />
+	<!--Long description of the mod. Single line or multi line. Supports minimal markdown subset-->
+	<!--LongDescription Value="This is a long description" /-->
+	<LongDescription>
+# Intersectable Subway System
+Have you tried to connect a subway track with a Road Builder roads and found out you can't?
+You planned extensive network now it will all fail thanks to this annoyance?
+Well, never fear, when I'm here.
+
+This mod introduces a completely redone Subway system which can intersect with any roads (not tracks) thus making it compatible with Road Builder roads.
+
+Includes tracks, stations, and subway yard (does not include any update, yet).
+
+You can find all the items in a new tab in Transportation menu right after the vanilla Subway system.
+
+# DISCLAIMER
+* Safe to remove. This mod will not break your save if removed.
+* This mod may require ***Asset Packs Manager*** which is highly experimental. This mod shouldn't break the save game. But subscribing to assets that require this without the dependency will pop up errors. Worst case you'll get error popups on game load and/or grey boxes in save. But either way, YOU ARE RESPONSIBLE for any damage. Contact me on Discord and I'll try to help you recover anyway.
+	</LongDescription>
+	<!--Thumbnail-->
+	<Thumbnail Value="Properties/Thumbnail.png" />
+	<!--Screenshot, can be set multiple times-->
+	<Screenshot Value="Properties/Screenshot01.png" />
+	<Screenshot Value="Properties/Screenshot02.png" />
+	<Screenshot Value="Properties/Screenshot03.png" />
+	<Screenshot Value="Properties/Screenshot04.png" />
+	<Screenshot Value="Properties/Screenshot05.png" />
+	<Screenshot Value="Properties/Screenshot06.png" />
+	<!--Tag, can be set multiple times-->
+	<Tag Value="" />
+	<!--Link to the forum post where the mod can be discussed-->
+	<ForumLink Value="" />
+	<!--Version of the mod-->
+	<ModVersion Value="1.0" />
+	<!--Recommended version of the base game to use the mod-->
+	<GameVersion Value="*" />
+	<!--Dependency for the mod, can be set multiple times-->
+	<Dependency Id="75426" />	<!-- I18n EveryWhere -->
+	<Dependency Id="79634" />	<!-- Asset Icon Library -->
+	<!--Change log for new version. Single line or multi line. Supports minimal markdown subset-->
+	<ChangeLog Value="" />
+	<!--ChangeLog>
+	</ChangeLog-->
+	<!--External link. supported types are discord, github, youtube, twitch, x, paypal, patreon, buymeacoffee, kofi, crowdin, gitlab-->
+	<ExternalLink Type="github" Url="https://github.com/qstar-inc/cities2-IntersectableSubwaySystem" />
+</Publish>
