@@ -11,7 +11,7 @@ namespace IntersectableSubwaySystem
     public class Mod : IMod
     {
         public static string Name = "Intersectable Subway System";
-        public static string Version = "1.0.0";
+        public static string Version = "1.0.1";
         public static string Author = "StarQ";
         //public static ILog log = LogManager.GetLogger($"{nameof(PropVanillaVegetations)}.{nameof(Mod)}").SetShowsErrorsInUI(false);
 

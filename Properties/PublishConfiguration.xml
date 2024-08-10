@@ -9,15 +9,21 @@
 	<!--LongDescription Value="This is a long description" /-->
 	<LongDescription>
 # Intersectable Subway System
-Have you tried to connect a subway track with a Road Builder roads and found out you can't?
-You planned extensive network now it will all fail thanks to this annoyance?
+Have you tried to connect a subway track with a Road Builder road and found out you can't?
+You planned an extensive network now it will all fail thanks to this annoyance?
 Well, never fear, when I'm here.
 
 This mod introduces a completely redone Subway system which can intersect with any roads (not tracks) thus making it compatible with Road Builder roads.
 
 Includes tracks, stations, and subway yard (does not include any update, yet).
 
-You can find all the items in a new tab in Transportation menu right after the vanilla Subway system.
+You can find all the items in a new tab in the Transportation menu right after the vanilla Subway system.
+
+## Some pointers
+* The intersections aren't created natively in the vanilla game.
+* This means the subway rails are present even at the intersection by which the vehicles/citizens will phase through.
+* There is no traffic control, vehicles/citizens stop right in front of the passing subway train.
+* Visual glitches exist at intersections.
 
 # DISCLAIMER
 * Safe to remove. This mod will not break your save if removed.
@@ -37,16 +43,18 @@ You can find all the items in a new tab in Transportation menu right after the v
 	<!--Link to the forum post where the mod can be discussed-->
 	<ForumLink Value="" />
 	<!--Version of the mod-->
-	<ModVersion Value="1.0" />
+	<ModVersion Value="1.0.1" />
 	<!--Recommended version of the base game to use the mod-->
 	<GameVersion Value="*" />
 	<!--Dependency for the mod, can be set multiple times-->
 	<Dependency Id="75426" />	<!-- I18n EveryWhere -->
 	<Dependency Id="79634" />	<!-- Asset Icon Library -->
 	<!--Change log for new version. Single line or multi line. Supports minimal markdown subset-->
-	<ChangeLog Value="" />
-	<!--ChangeLog>
-	</ChangeLog-->
+	<ChangeLog Value="1.0.1" />
+	<ChangeLog>
+## Minor Bug Fix
+* Removed Prefab Identifiers causing "Duplicate Prefab ID" with vanilla station/depot and some custom subway stations.
+	</ChangeLog>
 	<!--External link. supported types are discord, github, youtube, twitch, x, paypal, patreon, buymeacoffee, kofi, crowdin, gitlab-->
 	<ExternalLink Type="github" Url="https://github.com/qstar-inc/cities2-IntersectableSubwaySystem" />
 </Publish>
